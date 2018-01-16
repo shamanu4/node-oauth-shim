@@ -27,7 +27,7 @@
     "expect.js": "*",
     "express": "*",
     "mocha": "*",
-    "sinon": "*",
+    "sinon": ">=4.1.6",
     "supertest": "*"
   }
 }
