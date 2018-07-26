@@ -22,7 +22,7 @@ const query =
 	"SELECT provider, client_id, secret from socialaccount_socialapp " +
 	"WHERE provider IN ('linkedin_oauth2', 'twitter', 'github');"
 
-const domain = "https://liveedu.local";
+const domain = process.env.FQDN || "www.liveedu.tv";
 
 client.connect();
 

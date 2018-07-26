@@ -29,6 +29,7 @@
     "mocha": "*",
     "sinon": "*",
     "supertest": "*",
-	"pg": "*"
+	"pg": "*",
+	"nodemon": "*"
   }
 }
