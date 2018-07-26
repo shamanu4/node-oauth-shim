@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.js",
-    "server": "PORT=5500 nodemon example.js"
+    "start": "PORT=5500 nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "express": "*",
     "mocha": "*",
     "sinon": "*",
-    "supertest": "*"
+    "supertest": "*",
+	"pg": "*"
   }
 }
